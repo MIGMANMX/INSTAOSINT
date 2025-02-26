@@ -4,11 +4,11 @@
 
 🔹 Ejemplo de uso
 
-1️⃣ Obtener información completa del usuario
-python3 instaosint_v1.py <<USUARIO>> --info
+1️⃣ Obtener información completa del usuario </br>
+python3 instaosint_v1.py <<USUARIO>> --info </br>
 
-2️⃣ Obtener lista de seguidores con correos y teléfonos
-python3 instaosint_v1.py <<USUARIO>> --followers
+2️⃣ Obtener lista de seguidores con correos y teléfonos</br>
+python3 instaosint_v1.py <<USUARIO>> --followers</br>
 
-3️⃣ Obtener lista de seguidos con correos y teléfonos
-python3 instaosint_v1.py <<USUARIO>> --following
+3️⃣ Obtener lista de seguidos con correos y teléfonos</br>
+python3 instaosint_v1.py <<USUARIO>> --following</br>
