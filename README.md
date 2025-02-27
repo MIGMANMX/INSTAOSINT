@@ -18,3 +18,23 @@ Clona el repositorio y navega al directorio del proyecto:
 git clone https://tu-repositorio/instaosint.git
 cd instaosint
 
+## Configuración
+
+###🔹 Hacer login
+
+1️⃣ **Iniciar sesión**  
+Inicia el script `login.py` para generar un `sessionID`.
+
+```bash
+python login.py --login
+
+2️⃣ **Ingresa tu usuario y contraseña**
+
+Sigue las instrucciones en consola para ingresar tus credenciales de forma segura.
+
+3️⃣ **Verifica que tu sessionID esté escrito en el archivo `session.json`**
+```bash
+cat session.json
+###🔹  Hacer logout
+1️⃣ **Cerrar sesión**
+Inicia el script `login.py` con el argumento para limpiar la sesión.
