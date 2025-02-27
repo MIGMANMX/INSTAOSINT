@@ -1,33 +1,20 @@
-# INSTAOSINT
-🔹 Hacer login
-1️⃣ Iniciar el script login.py para generar sessionID </br>
-python login.py --login
-2️⃣ Teclea tu usuario y contraseña</br>
+# INSTAOSINT 🕵️‍♂️
 
-</br></br>
-3️⃣ Verifica que tu sessionID este escrto en el archivo "session.json" </br>
-cat session.json
-</br></br>
+`INSTAOSINT` es una herramienta de inteligencia OSINT para Instagram que permite realizar diversas operaciones de recopilación de información de perfiles públicos.
 
+## 🚀 Comenzando
 
-🔹 Hacer logout
-1️⃣ Iniciar el script login.py para generar sessionID </br>
-python login.py --clear-session
-2️⃣ Verifica que tu archivo "session.json" se elimino </br>
-cat session.json </br></br>
+Estos son los pasos para empezar a usar `INSTAOSINT`:
 
+### Prerrequisitos
 
-🔹 Comandos
+Asegúrate de tener Python instalado en tu sistema. `INSTAOSINT` requiere Python 3.6 o superior.
 
+### Instalación
 
+Clona el repositorio y navega al directorio del proyecto:
 
-🔹 Ejemplo de uso
+```bash
+git clone https://tu-repositorio/instaosint.git
+cd instaosint
 
-1️⃣ Obtener información completa del usuario </br>
-python3 instaosint_v1.py <USUARIO> --info </br></br>
-
-2️⃣ Obtener lista de seguidores con correos y teléfonos</br>
-python3 instaosint_v1.py <USUARIO> --followers</br></br>
-
-3️⃣ Obtener lista de seguidos con correos y teléfonos</br>
-python3 instaosint_v1.py <USUARIO> --following</br></br>
